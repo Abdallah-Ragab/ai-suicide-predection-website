@@ -36,4 +36,4 @@ class cli:
         self.prompt()
 
 
-cli()
+# cli()
