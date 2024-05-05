@@ -2,7 +2,7 @@ from ntscraper import Nitter
 
 class Scraper:
     tweet_limit = 50
-    def __init__(self, url):
+    def __init__(self):
         self.scraper = Nitter()
 
     def user(self, username):
@@ -17,3 +17,5 @@ class Scraper:
 
 
 
+s = Scraper()
+print(s.user('elonmusk'))
